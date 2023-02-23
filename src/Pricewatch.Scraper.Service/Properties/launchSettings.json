@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Pricewatch.Scraper.Service": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "None",
+      "composeLaunchServiceName": "pricewatch.scraper.service",
+      "serviceActions": {
+        "pricewatch.scraper.service": "StartDebugging",
+        "kafka": "StartWithoutDebugging",
+        "kafka-ui": "StartWithoutDebugging",
+        "zookeeper": "StartWithoutDebugging"
+      }
+    }
+  }
+}
